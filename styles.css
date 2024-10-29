@@ -28,7 +28,7 @@ header {
 
 header img {
   max-width: 150px;
-  margin-left: 10px;
+  margin-left: 40px;
   margin-top: 5px;
 }
 @media (max-width: 600px) {
@@ -47,6 +47,7 @@ header nav ul {
   font-weight: 400;
   cursor: pointer;
   margin-right: 10px;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   header nav ul {
@@ -149,8 +150,10 @@ header nav ul {
   }
   .linha-elseve-extra-gloss p {
     text-align: center;
+    flex-direction: column;
     max-width: 90%;
     margin: 0 auto;
+    align-items: center;
   }
   .produtos-favoritos {
     display: flex;
